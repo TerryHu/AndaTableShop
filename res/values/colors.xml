@@ -1,0 +1,6 @@
+<resources>
+
+    <color name="onda_page_bk_color">#dddddd</color>
+    <color name="onda_main_page_bk_color">#ffffffff</color>
+<color name="onda_welcome_page_bk_color">#ff1d7ad9</color>
+</resources>

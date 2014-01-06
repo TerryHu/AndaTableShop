@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/onda_mainframepage"
+        style="@style/OnDaMeidiumTextAppearen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginLeft="@dimen/onda_titile_text_magin_left"
+        android:drawableLeft="@drawable/navigation_home_selector"
+        android:text="首页" />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/onda_category_pop_menu"
+        style="@style/OnDaMeidiumTextAppearen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="@dimen/onda_titile_text_magin_left"
+        android:layout_toRightOf="@+id/onda_mainframepage"
+        android:drawableLeft="@drawable/navigation_category_icon"
+        android:text="分类" />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/onda_shopping_cart_framepage"
+        style="@style/OnDaMeidiumTextAppearen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="@dimen/onda_titile_text_magin_left"
+        android:layout_toRightOf="@+id/onda_category_pop_menu"
+        android:drawableLeft="@drawable/navigation_car_selector"
+        android:text="购物车" />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/onda_personal_center_framepage"
+        style="@style/OnDaMeidiumTextAppearen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="@dimen/onda_titile_text_magin_left"
+        android:layout_toRightOf="@+id/onda_shopping_cart_framepage"
+        android:drawableLeft="@drawable/navigation_my_jd_selector"
+        android:text="个人中心" />
+
+    <EditText
+        android:id="@+id/onda_fast_search_edit_tv"
+        style="style/OnDaSmallTextAppearen"
+        android:layout_width="@dimen/onda_fast_edit_tv_width"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/onda_fast_search_btn"
+        android:hint="输入商品名称"
+        android:maxLength="30" />
+
+    <Button
+        android:id="@+id/onda_fast_search_btn"
+        style="@style/OnDaMeidiumTextAppearen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/onda_titile_text_magin_left"
+        android:text="搜索" />
+
+</RelativeLayout>

@@ -1,4 +1,0 @@
-AndaTableShop
-=============
-
-anda table shop

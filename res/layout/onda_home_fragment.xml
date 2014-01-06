@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/onda_main_page_bk_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/onda_mainpage_advertisement_layout"/>
+    
+
+</LinearLayout>
